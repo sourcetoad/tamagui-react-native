@@ -446,6 +446,7 @@ __metadata:
     "@tamagui/core": ^1.0.2
     "@tamagui/get-button-sized": ^1.0.2
     "@tamagui/lucide-icons": ^1.0.2
+    "@tamagui/react-native-media-driver": ^1.0.2
     "@tamagui/stacks": ^1.0.2
     "@tamagui/text": ^1.0.2
     "@types/react-native": ^0.70.8
@@ -730,6 +731,18 @@ __metadata:
   version: 1.0.2
   resolution: "@tamagui/proxy-worm@npm:1.0.2"
   checksum: 6b6402a361b6bc25c7a51362c2eef642d1442a81b2d3b24c55d93b881f38c8f7e1108a0bf97b9a7189db2c41098b764609d6e5ec813bdbc57d1507ce319fbc5e
+  languageName: node
+  linkType: hard
+
+"@tamagui/react-native-media-driver@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "@tamagui/react-native-media-driver@npm:1.0.2"
+  dependencies:
+    "@tamagui/core": ^1.0.2
+    css-mediaquery: ^0.1.2
+  peerDependencies:
+    react-native: "*"
+  checksum: 17c6c000485a423ac41b3de6623de4da4d3219d420f1a07d4e3c36130dd3de0337a9c4886cc8148ed8f9e6a2d9e295a077c1d5b2a1adf69736e4096790a5932b
   languageName: node
   linkType: hard
 
