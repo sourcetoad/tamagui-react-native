@@ -14,10 +14,14 @@
     "*.css"
   ],
   "dependencies": {
+    "@tamagui/babel-plugin": "^1.0.2",
     "@tamagui/button": "^1.0.2",
+    "@tamagui/config-base": "^1.0.2",
     "@tamagui/core": "^1.0.2",
+    "@tamagui/lucide-icons": "^1.0.2",
     "@tamagui/stacks": "^1.0.2",
-    "@tamagui/text": "^1.0.2"
+    "@tamagui/text": "^1.0.2",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.4"
   },
   "scripts": {
     "build": "tamagui-build",
