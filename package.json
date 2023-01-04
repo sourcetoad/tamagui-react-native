@@ -1,10 +1,21 @@
 {
-  "name": "sourcetoad-tamagui-react-native",
+  "name": "@sourcetoad/tamagui-react-native",
   "version": "0.0.1",
+  "description": "A design system specific to React Native for Tamagui.",
   "types": "./types/index.d.ts",
   "main": "dist/cjs",
   "module": "dist/esm",
   "module:jsx": "dist/jsx",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sourcetoad/tamagui-react-native.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sourcetoad/tamagui-react-native/issues"
+  },
+  "homepage": "https://github.com/sourcetoad/tamagui-react-native#readme",
+  "author": "Sourcetoad, LLC",
   "files": [
     "types",
     "src",
