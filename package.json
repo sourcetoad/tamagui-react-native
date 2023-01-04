@@ -20,8 +20,7 @@
   "scripts": {
     "build": "tamagui-build",
     "watch": "tamagui-build --watch",
-    "clean:build": "tamagui-build clean:build",
-    "prepare": "yarn build"
+    "clean:build": "tamagui-build clean:build"
   },
   "devDependencies": {
     "@tamagui/build": "^1.0.2",
