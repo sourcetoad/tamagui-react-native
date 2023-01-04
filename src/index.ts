@@ -1,5 +1,7 @@
 export * from '@tamagui/text'
+export * from '@tamagui/core'
 
 export {
-    Text
+    Text,
+    TamaguiProvider
 } from '@tamagui/core'
