@@ -15,12 +15,12 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 16
           cache: 'yarn'
           registry-url: 'https://registry.npmjs.org'
 
       - name: Yarn Install
-        run: yarn install
+        run: yarn install --immutable
 
       - name: Yarn Build
         run: yarn build
