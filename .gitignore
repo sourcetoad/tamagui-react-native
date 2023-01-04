@@ -11,3 +11,9 @@
 
 # Node
 node_modules
+
+# Types
+types
+
+# Dist
+dist

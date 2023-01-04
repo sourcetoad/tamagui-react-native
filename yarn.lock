@@ -129,6 +129,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tamagui/get-font-sized@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "@tamagui/get-font-sized@npm:1.0.2"
+  dependencies:
+    "@tamagui/core": ^1.0.2
+    react: ^18.2.0
+  checksum: 612773547529809e985c6b1c7b15faf16f785df7f22acf5a4d9693392da6cb85133a2043264b3fe9ca1ced5e108bbd0d9a223c7449a2217524fbcf35d50f287b
+  languageName: node
+  linkType: hard
+
+"@tamagui/helpers-tamagui@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "@tamagui/helpers-tamagui@npm:1.0.2"
+  dependencies:
+    "@tamagui/core": ^1.0.2
+    "@tamagui/helpers": ^1.0.2
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 180e3a585dbdeb5f85dd96b5a8928cb3c2acdb63045e06ef9478edc1236e43c10e7fcc09bbc991e13346663e14d2b29c2926eb6e90c708ee9479bd882a2f6e50
+  languageName: node
+  linkType: hard
+
 "@tamagui/helpers@npm:^1.0.2":
   version: 1.0.2
   resolution: "@tamagui/helpers@npm:1.0.2"
@@ -160,6 +183,20 @@ __metadata:
   version: 1.0.2
   resolution: "@tamagui/simple-hash@npm:1.0.2"
   checksum: e14b03444ed5b28e869262d3c67afe187bb9cd029f99b907dd1d5c28f086b855fd5de8dd051f27ecce7e854f73fbb85e5b5fde697f6bf772f254282a673f1525
+  languageName: node
+  linkType: hard
+
+"@tamagui/text@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "@tamagui/text@npm:1.0.2"
+  dependencies:
+    "@tamagui/core": ^1.0.2
+    "@tamagui/get-font-sized": ^1.0.2
+    "@tamagui/helpers-tamagui": ^1.0.2
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  checksum: f6deb3e945f1e19bd43d5215210a7cb338ad5b0d579dba7a68e355b702a5576a4080293f434dca6f0272ddd957bc3d88fff8910b47f85f66701b6f9049524d0c
   languageName: node
   linkType: hard
 
@@ -195,6 +232,40 @@ __metadata:
   version: 2.0.0
   resolution: "@tootallnate/once@npm:2.0.0"
   checksum: ad87447820dd3f24825d2d947ebc03072b20a42bfc96cbafec16bff8bbda6c1a81fcb0be56d5b21968560c5359a0af4038a68ba150c3e1694fe4c109a063bed8
+  languageName: node
+  linkType: hard
+
+"@types/prop-types@npm:*":
+  version: 15.7.5
+  resolution: "@types/prop-types@npm:15.7.5"
+  checksum: 5b43b8b15415e1f298243165f1d44390403bb2bd42e662bca3b5b5633fdd39c938e91b7fce3a9483699db0f7a715d08cef220c121f723a634972fdf596aec980
+  languageName: node
+  linkType: hard
+
+"@types/react-native@npm:^0.70.8":
+  version: 0.70.8
+  resolution: "@types/react-native@npm:0.70.8"
+  dependencies:
+    "@types/react": "*"
+  checksum: e951992178f0a6a2a5bc5312824ad67146594840c03ec51156022eacb23e8db7be7470d0c9ad61828dbae840e531bf0cf553205b9dc290b358091329746fd094
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:*":
+  version: 18.0.26
+  resolution: "@types/react@npm:18.0.26"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: b62f0ea3cdfa68e106391728325057ad36f1bde7ba2dfae029472c47e01e482bc77c6ba4f1dad59f3f04ee81cb597618ff7c30a33c157c0a20462b6dd6aa2d4d
+  languageName: node
+  linkType: hard
+
+"@types/scheduler@npm:*":
+  version: 0.16.2
+  resolution: "@types/scheduler@npm:0.16.2"
+  checksum: b6b4dcfeae6deba2e06a70941860fb1435730576d3689225a421280b7742318d1548b3d22c1f66ab68e414f346a9542f29240bc955b6332c5b11e561077583bc
   languageName: node
   linkType: hard
 
@@ -401,6 +472,13 @@ __metadata:
     shebang-command: ^2.0.0
     which: ^2.0.1
   checksum: 671cc7c7288c3a8406f3c69a3ae2fc85555c04169e9d611def9a675635472614f1c0ed0ef80955d5b6d4e724f6ced67f0ad1bb006c2ea643488fcfef994d7f52
+  languageName: node
+  linkType: hard
+
+"csstype@npm:^3.0.2":
+  version: 3.1.1
+  resolution: "csstype@npm:3.1.1"
+  checksum: 1f7b4f5fdd955b7444b18ebdddf3f5c699159f13e9cf8ac9027ae4a60ae226aef9bbb14a6e12ca7dba3358b007cee6354b116e720262867c398de6c955ea451d
   languageName: node
   linkType: hard
 
@@ -1528,6 +1606,12 @@ __metadata:
   dependencies:
     "@tamagui/build": ^1.0.2
     "@tamagui/core": ^1.0.2
+    "@tamagui/text": ^1.0.2
+    "@types/react-native": ^0.70.8
+    typescript: ^4.9.4
+  peerDependencies:
+    react: "*"
+    react-native: "*"
   languageName: unknown
   linkType: soft
 
@@ -1599,7 +1683,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.7.4":
+"typescript@npm:^4.7.4, typescript@npm:^4.9.4":
   version: 4.9.4
   resolution: "typescript@npm:4.9.4"
   bin:
@@ -1609,7 +1693,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.7.4#~builtin<compat/typescript>":
+"typescript@patch:typescript@^4.7.4#~builtin<compat/typescript>, typescript@patch:typescript@^4.9.4#~builtin<compat/typescript>":
   version: 4.9.4
   resolution: "typescript@patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"
   bin:

@@ -13,14 +13,22 @@
     "*.css"
   ],
   "dependencies": {
-    "@tamagui/core": "^1.0.2"
+    "@tamagui/core": "^1.0.2",
+    "@tamagui/text": "^1.0.2"
   },
   "scripts": {
     "build": "tamagui-build",
-    "watch": "tamagui-build --watch"
+    "watch": "tamagui-build --watch",
+    "clean:build": "tamagui-build clean:build"
   },
   "devDependencies": {
-    "@tamagui/build": "^1.0.2"
+    "@tamagui/build": "^1.0.2",
+    "@types/react-native": "^0.70.8",
+    "typescript": "^4.9.4"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
   },
   "packageManager": "yarn@3.3.1"
 }
