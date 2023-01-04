@@ -9,7 +9,7 @@ If you use Expo - DO NOT use this. You are welcome to just use `tamagui`.
 yarn add @sourcetoad/tamagui-react-native
 ```
 
-* Create/edit the `asset` region of `react-native.config.js`
+* Create/edit the `assets` region of `react-native.config.js`
 
 ```js
 module.exports = {
@@ -18,8 +18,7 @@ module.exports = {
     android: {},
   },
   assets: [
-    './node_modules/@tamagui/font-inter/otf',
-    './node_modules/@tamagui/font-silkscreen/files',
+    './node_modules/@tamagui/font-inter/otf'
   ],
 };
 ```
