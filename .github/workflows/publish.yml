@@ -20,7 +20,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
 
       - name: Yarn Install
-        run: yarn install --network-concurrency 1
+        run: yarn install
 
       - name: Yarn Build
         run: yarn build
