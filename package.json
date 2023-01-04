@@ -1,5 +1,6 @@
 {
   "name": "sourcetoad-tamagui-react-native",
+  "version": "0.0.1",
   "types": "./types/index.d.ts",
   "main": "dist/cjs",
   "module": "dist/esm",
