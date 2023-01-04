@@ -90,6 +90,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tamagui/button@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "@tamagui/button@npm:1.0.2"
+  dependencies:
+    "@tamagui/core": ^1.0.2
+    "@tamagui/font-size": ^1.0.2
+    "@tamagui/get-button-sized": ^1.0.2
+    "@tamagui/helpers-tamagui": ^1.0.2
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  checksum: 277878e76d62b7e20a8d340362ba689babf31d6aa1e045a14f16cde98bdd6d1f9ccebb7228f7c0726e778e081df0d111330ef1425c79fb4ac2072b4945350342
+  languageName: node
+  linkType: hard
+
 "@tamagui/compose-refs@npm:^1.0.2":
   version: 1.0.2
   resolution: "@tamagui/compose-refs@npm:1.0.2"
@@ -126,6 +141,29 @@ __metadata:
     react: "*"
     react-dom: "*"
   checksum: 9e21217944bb4f710657a61c4b2996ee5357696ee09fa11753850f06231b66224dfd86215f0cafb343cd657edefc64b39fecc6609bb97fb5789d3d80dfe3eb35
+  languageName: node
+  linkType: hard
+
+"@tamagui/font-size@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "@tamagui/font-size@npm:1.0.2"
+  dependencies:
+    "@tamagui/core": ^1.0.2
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  checksum: e6e3ce8321291207b380af2f8ae6814da821cde90eba9cb94b809c341d8fdb73f3134ffce9680fd416a45209b6685f286f759f8708c9f6d6b03b2c79b9ae07f7
+  languageName: node
+  linkType: hard
+
+"@tamagui/get-button-sized@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "@tamagui/get-button-sized@npm:1.0.2"
+  dependencies:
+    "@tamagui/core": ^1.0.2
+  peerDependencies:
+    react: "*"
+  checksum: 3dd9cb53df7856f7472c41f112fbacdc2927682a370fac3fd769e89b4883dfd28ff7a817af8cae79b00a7826ee261f8d9a8e8f33bdc277835eafadb156f83a30
   languageName: node
   linkType: hard
 
@@ -183,6 +221,18 @@ __metadata:
   version: 1.0.2
   resolution: "@tamagui/simple-hash@npm:1.0.2"
   checksum: e14b03444ed5b28e869262d3c67afe187bb9cd029f99b907dd1d5c28f086b855fd5de8dd051f27ecce7e854f73fbb85e5b5fde697f6bf772f254282a673f1525
+  languageName: node
+  linkType: hard
+
+"@tamagui/stacks@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "@tamagui/stacks@npm:1.0.2"
+  dependencies:
+    "@tamagui/core": ^1.0.2
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  checksum: edbf0699fe874bd85e13c6e3f9829b9b727c21715893072c2c1628468d6271744c2fe98dcacd0007b82b25f146081e1dbd8dc03b389dc30b4dcfc22790ef56b4
   languageName: node
   linkType: hard
 
@@ -1605,7 +1655,9 @@ __metadata:
   resolution: "sourcetoad-tamagui-react-native@workspace:."
   dependencies:
     "@tamagui/build": ^1.0.2
+    "@tamagui/button": ^1.0.2
     "@tamagui/core": ^1.0.2
+    "@tamagui/stacks": ^1.0.2
     "@tamagui/text": ^1.0.2
     "@types/react-native": ^0.70.8
     typescript: ^4.9.4
