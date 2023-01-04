@@ -435,6 +435,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sourcetoad/tamagui-react-native@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@sourcetoad/tamagui-react-native@workspace:."
+  dependencies:
+    "@tamagui/babel-plugin": ^1.0.2
+    "@tamagui/build": ^1.0.2
+    "@tamagui/button": ^1.0.2
+    "@tamagui/config-base": ^1.0.2
+    "@tamagui/core": ^1.0.2
+    "@tamagui/lucide-icons": ^1.0.2
+    "@tamagui/stacks": ^1.0.2
+    "@tamagui/text": ^1.0.2
+    "@types/react-native": ^0.70.8
+    babel-plugin-transform-inline-environment-variables: ^0.4.4
+    typescript: ^4.9.4
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  languageName: unknown
+  linkType: soft
+
 "@tamagui/animations-css@npm:^1.0.2":
   version: 1.0.2
   resolution: "@tamagui/animations-css@npm:1.0.2"
@@ -2569,27 +2590,6 @@ __metadata:
   checksum: 259d9e3e8e1c9809a7f5c32238c3d4d2a36b39b83851d0f573bfde5f21c4b1288417ce1af06af1452569cd1eb0841169afd4998f0e04ba04656f6b7f0e46d748
   languageName: node
   linkType: hard
-
-"sourcetoad-tamagui-react-native@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "sourcetoad-tamagui-react-native@workspace:."
-  dependencies:
-    "@tamagui/babel-plugin": ^1.0.2
-    "@tamagui/build": ^1.0.2
-    "@tamagui/button": ^1.0.2
-    "@tamagui/config-base": ^1.0.2
-    "@tamagui/core": ^1.0.2
-    "@tamagui/lucide-icons": ^1.0.2
-    "@tamagui/stacks": ^1.0.2
-    "@tamagui/text": ^1.0.2
-    "@types/react-native": ^0.70.8
-    babel-plugin-transform-inline-environment-variables: ^0.4.4
-    typescript: ^4.9.4
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-  languageName: unknown
-  linkType: soft
 
 "ssri@npm:^9.0.0":
   version: 9.0.1
