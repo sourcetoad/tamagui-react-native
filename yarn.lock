@@ -449,6 +449,7 @@ __metadata:
     "@tamagui/get-button-sized": ^1.0.3
     "@tamagui/lucide-icons": ^1.0.3
     "@tamagui/react-native-media-driver": ^1.0.3
+    "@tamagui/scroll-view": ^1.0.3
     "@tamagui/stacks": ^1.0.3
     "@tamagui/text": ^1.0.3
     "@types/react-native": ^0.70.8
@@ -763,6 +764,18 @@ __metadata:
   dependencies:
     react: ^18.2.0
   checksum: 4691c2e1b8c19dff47cce6dd7ce2246f9068e35d05f56cb92956a69bdf15065314863511ca91b8b1c86847d63a674cf2e49a6c868c224f6c99c5c97785ce07c5
+  languageName: node
+  linkType: hard
+
+"@tamagui/scroll-view@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "@tamagui/scroll-view@npm:1.0.3"
+  dependencies:
+    "@tamagui/core": ^1.0.3
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  checksum: 67775a0e19a93e303d63aaf11c73751a90e3092758b329a2c0df7ca8d15bb0e122c39883bf751646ac14ce89577afaab93da3a5d709585c17efceebd1faf130c
   languageName: node
   linkType: hard
 

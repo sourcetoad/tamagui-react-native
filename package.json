@@ -34,6 +34,7 @@
     "@tamagui/get-button-sized": "^1.0.3",
     "@tamagui/lucide-icons": "^1.0.3",
     "@tamagui/react-native-media-driver": "^1.0.3",
+    "@tamagui/scroll-view": "^1.0.3",
     "@tamagui/stacks": "^1.0.3",
     "@tamagui/text": "^1.0.3",
     "babel-plugin-transform-inline-environment-variables": "^0.4.4"
