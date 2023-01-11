@@ -1,6 +1,6 @@
 {
   "name": "@sourcetoad/tamagui-react-native",
-  "version": "0.9.6",
+  "version": "0.9.7",
   "description": "A design system specific to React Native for Tamagui.",
   "types": "./types/index.d.ts",
   "main": "dist/cjs",
