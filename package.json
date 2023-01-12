@@ -25,16 +25,16 @@
     "*.css"
   ],
   "dependencies": {
-    "@tamagui/babel-plugin": "^1.0.7",
-    "@tamagui/button": "^1.0.7",
-    "@tamagui/config-base": "^1.0.7",
-    "@tamagui/core": "^1.0.7",
-    "@tamagui/font-inter": "^1.0.7",
-    "@tamagui/get-button-sized": "^1.0.7",
-    "@tamagui/lucide-icons": "^1.0.7",
-    "@tamagui/scroll-view": "^1.0.7",
-    "@tamagui/stacks": "^1.0.7",
-    "@tamagui/text": "^1.0.7",
+    "@tamagui/babel-plugin": "^1.0.8",
+    "@tamagui/button": "^1.0.8",
+    "@tamagui/config-base": "^1.0.8",
+    "@tamagui/core": "^1.0.8",
+    "@tamagui/font-inter": "^1.0.8",
+    "@tamagui/get-button-sized": "^1.0.8",
+    "@tamagui/lucide-icons": "^1.0.8",
+    "@tamagui/scroll-view": "^1.0.8",
+    "@tamagui/stacks": "^1.0.8",
+    "@tamagui/text": "^1.0.8",
     "babel-plugin-transform-inline-environment-variables": "^0.4.4"
   },
   "scripts": {
@@ -43,7 +43,7 @@
     "clean:build": "tamagui-build clean:build"
   },
   "devDependencies": {
-    "@tamagui/build": "^1.0.7",
+    "@tamagui/build": "^1.0.8",
     "@types/react-native": "^0.70.8",
     "typescript": "^4.9.4"
   },
