@@ -33,6 +33,7 @@
     "@tamagui/get-button-sized": "^1.1.5",
     "@tamagui/lucide-icons": "^1.1.5",
     "@tamagui/scroll-view": "^1.1.5",
+    "@tamagui/select": "^1.2.5",
     "@tamagui/stacks": "^1.1.5",
     "@tamagui/text": "^1.1.5",
     "babel-plugin-transform-inline-environment-variables": "^0.4.4"
