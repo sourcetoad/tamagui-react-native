@@ -26,7 +26,7 @@ jobs:
         run: yarn build
 
       - name: Publish (NPM)
-        run: yarn publish --access public
+        run: yarn npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
@@ -35,6 +35,6 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
 
       - name: Publish (GPR)
-        run: yarn publish
+        run: yarn npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
