@@ -16,14 +16,14 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: 'yarn'
+          cache: 'npm'
           registry-url: 'https://registry.npmjs.org'
 
-      - name: Yarn Install
-        run: yarn install --immutable
+      - name: NPM Install
+        run: npm install --immutable
 
-      - name: Yarn Build
-        run: yarn build
+      - name: NPM Build
+        run: npm run build
 
       - name: Publish (NPM)
         run: npm publish --access public

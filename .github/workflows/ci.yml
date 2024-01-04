@@ -10,10 +10,10 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: 'yarn'
+          cache: 'npm'
 
-      - name: Yarn Install
-        run: yarn install --immutable
+      - name: NPM Install
+        run: npm install --immutable
 
       - name: Building
-        run: yarn build
+        run: npm run build
