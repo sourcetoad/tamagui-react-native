@@ -20,7 +20,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
 
       - name: NPM Install
-        run: npm install --immutable
+        run: npm ci --immutable
 
       - name: NPM Build
         run: npm run build
