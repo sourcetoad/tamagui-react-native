@@ -3,10 +3,10 @@ _A starter kit isolated specifically for React Native for [Tamagui](https://tama
 
 If you use Expo - DO NOT use this. You are welcome to just use `tamagui`.
 
---- 
+---
 ## Install
 ```bash
-yarn add @sourcetoad/tamagui-react-native
+npm i --save-dev @sourcetoad/tamagui-react-native
 ```
 
 * Create/edit the `assets` region of `react-native.config.js`
