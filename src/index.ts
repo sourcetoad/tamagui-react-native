@@ -1,5 +1,3 @@
-export * from './setup'
-
 export * from '@tamagui/button'
 export * from '@tamagui/get-button-sized'
 export * from '@tamagui/core'
