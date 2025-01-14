@@ -32,6 +32,7 @@
     "@tamagui/font-inter": "^1.116.12",
     "@tamagui/get-button-sized": "^1.116.12",
     "@tamagui/lucide-icons": "^1.116.12",
+    "@tamagui/radio-group": "^1.116.12",
     "@tamagui/scroll-view": "^1.116.12",
     "@tamagui/stacks": "^1.116.12",
     "@tamagui/text": "^1.116.12",
