@@ -31,6 +31,7 @@
     "@tamagui/core": "^1.126.12",
     "@tamagui/font-inter": "^1.126.12",
     "@tamagui/get-button-sized": "^1.126.12",
+    "@tamagui/label": "^1.126.12",
     "@tamagui/lucide-icons": "^1.126.12",
     "@tamagui/radio-group": "^1.126.12",
     "@tamagui/scroll-view": "^1.126.12",
