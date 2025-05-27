@@ -6,6 +6,7 @@ export * from '@tamagui/stacks'
 export * from '@tamagui/text'
 export * from '@tamagui/scroll-view'
 export * from '@tamagui/radio-group'
+export * from '@tamagui/label'
 
 export * as LucideIcons from '@tamagui/lucide-icons'
 
