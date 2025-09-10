@@ -25,18 +25,18 @@
     "*.css"
   ],
   "dependencies": {
-    "@tamagui/babel-plugin": "^1.128.1",
-    "@tamagui/button": "^1.128.1",
-    "@tamagui/config": "^1.128.1",
-    "@tamagui/core": "^1.128.1",
-    "@tamagui/font-inter": "^1.128.1",
-    "@tamagui/get-button-sized": "^1.128.1",
-    "@tamagui/label": "^1.128.1",
-    "@tamagui/lucide-icons": "^1.128.1",
-    "@tamagui/radio-group": "^1.128.1",
-    "@tamagui/scroll-view": "^1.128.1",
-    "@tamagui/stacks": "^1.128.1",
-    "@tamagui/text": "^1.128.1",
+    "@tamagui/babel-plugin": "^1.132.23",
+    "@tamagui/button": "^1.132.23",
+    "@tamagui/config": "^1.132.23",
+    "@tamagui/core": "^1.132.23",
+    "@tamagui/font-inter": "^1.132.23",
+    "@tamagui/get-button-sized": "^1.132.23",
+    "@tamagui/label": "^1.132.23",
+    "@tamagui/lucide-icons": "^1.132.23",
+    "@tamagui/radio-group": "^1.132.23",
+    "@tamagui/scroll-view": "^1.132.23",
+    "@tamagui/stacks": "^1.132.23",
+    "@tamagui/text": "^1.132.23",
     "babel-plugin-transform-inline-environment-variables": "^0.4.4"
   },
   "scripts": {
@@ -46,7 +46,7 @@
     "clean:build": "tamagui-build clean:build"
   },
   "devDependencies": {
-    "@tamagui/build": "^1.128.1",
+    "@tamagui/build": "^1.132.23",
     "typescript": "^5.6.3"
   },
   "peerDependencies": {
