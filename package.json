@@ -37,6 +37,7 @@
     "@tamagui/scroll-view": "^1.132.23",
     "@tamagui/stacks": "^1.132.23",
     "@tamagui/text": "^1.132.23",
+    "@tamagui/theme": "^1.132.23",
     "babel-plugin-transform-inline-environment-variables": "^0.4.4"
   },
   "scripts": {
